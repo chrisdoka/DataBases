@@ -1,0 +1,152 @@
+div.fixed {
+    position: static;
+ bottom: 0px;
+ left: 0px;
+ width: 300px;
+ top: 59px;
+   background-color: #000;
+   color: #fff;
+   opacity: .5;
+}
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: white;
+   text-align: center;
+   padding:20px;
+}
+
+a:link{
+color:white;
+background-color:transparent;
+text-decoration:none;
+font-size: 20px;
+}
+
+a:visited {
+   color:white;
+   background-color:transparent;
+   text-decoration:none;
+   font-size: 20px;
+}
+
+/* mouse over link */
+a:hover {
+   color:darkblue;
+   background-color:transparent;
+   text-decoration:none;
+   font-size: 20px;
+}
+
+/* selected link */
+a:active {
+   color:white;
+   background-color:transparent;
+   text-decoration:none;
+   font-size: 20px;
+}
+body {
+ background-image: url('car.jpg');
+
+}
+
+.oval-square {
+   width: 800px;
+   height: 600px;
+   margin-top: 100;
+   margin-left: 100px;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 25%;
+}
+
+.oval-square2 {
+   width: 800px;
+   height: 600px;
+   margin-top: 100px;
+   margin-left: 220px;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 25%;
+}
+
+.oval-square3 {
+   width: 750px;
+   height: 600px;
+   margin-top: 90;
+   margin-left: 380px;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 25%;
+}
+
+.oval-square4 {
+   width: 750px;
+   height: 600px;
+   margin-top: 90px;
+   margin-left: 100px;
+   background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 25%;
+}
+
+.container1
+{
+   display: flex;
+}
+
+.search-container {
+ display: flex;
+ margin-left: 400px;
+}
+
+#search-filter {
+ width: 20%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border: 2px solid #ccc;
+ border-radius: 4px;
+ font-size: 16px;
+}
+
+#search-input {
+ width: 70%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ box-sizing: border-box;
+ border: 2px solid #ccc;
+ border-radius: 4px;
+ font-size: 16px;
+}
+
+.color-button
+{
+   margin-top: 6px;
+   color: #fff;
+   cursor: pointer;
+   margin-right: 1em !important;
+   background: #100f20;
+   font-size: 20px;
+}
+
+.form-group {
+ display: flex;
+ align-items: center;
+ margin-bottom: 1rem;
+}
+
+.form-group label {
+ flex: 1;
+ font-weight: bold;
+ margin-right: 1rem;
+}
+
+.form-group input {
+ flex: 2;
+ padding: 0.5rem;
+ border-radius: 0.25rem;
+ border: 1px solid #ccc;
+}
+
+
+
